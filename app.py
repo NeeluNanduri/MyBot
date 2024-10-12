@@ -33,8 +33,8 @@ def generate_text(prompt):
     return response_text
 
 # Streamlit UI setup
-st.title("My First Chatbot")
-st.write("Ask me anything")
+st.title("My First Bot")
+st.write("Anything")
 
 # User input
 user_input = st.text_input("You:", placeholder="Type your question here...")
